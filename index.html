@@ -17,15 +17,27 @@
       <section class="card" id="html-section">
         <h2>HTML</h2>
         <ul>
-          <li>The head element contains information about the webpage.</li>
-          <li>The body element represents the visible content shown to the user.</li>
+          <li>(!DOCTYPE html) at the top of every HTML file.</li>
+          <li>Then you have (html lang="en") to make the base language clear.</li>
+          <li>The (head) element contains information about the webpage.
+            <ul><li>(meta charset)</li>
+            <li>(meta http-equiv)</li>
+            <li>(meta viewport)</li>
+            <li>(title)</li></ul>
+          </li>
+          <li>The (body) element represents the visible content shown to the user.
+            <ul><li>i.e. (h1-6), (div), (p), (img), etc</li></ul>
         </ul>
       </section>
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
+          <li>selector {proptery: value; property: value;}</li>
+          <li>Single sets of {property: value;} are declarations.</li>
+          <li>"*" rules apply to entire stylesheet.</li>
           <li>A margin indicates how much space we want around the outside of an element.</li>
           <li>A padding indicates how much space we want around the content inside an element.</li>
+          <li>Rule of Thumb: Start broad, "cascade" down to the more specific.</li>
         </ul>
       </section>
       <section class="card" id="git-section">
@@ -45,6 +57,7 @@
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
+          <li>(script src) goes below (footer), but still in (body).</li>
           <li>for loop, repeating console.log() per variable:</li>
           <ul><li>for(var x = 0; x < shapes.length; x++) {code block}</li></ul>
           <li>/* */ for blocking out sections as comments</li>
